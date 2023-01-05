@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: flex;
+    margin: 2rem 2rem;
+    padding: 10px;
+}
+
+.heading img{
+    width: 60%;
+    height: 60%;
+}
+
+.search-input{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 1.0rem;
+    box-shadow: 4px 5px 12px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 33px;
+    
+}
+
+.group-icons{
+    display: flex;
+    align-items: center;
+    border-left: solid 1px #ccc;
+    padding-left: 0.7rem;
+}
+
+.group-icons i{
+    margin: 0.2rem;
+    padding-right: 0.4rem;
+    cursor: pointer;
+}
+
+.search-input input{
+    padding: 0.4rem;
+    margin-left: 6rem;
+    width: 60%;
+    border: none;
+    outline: none;
+}
+
+.logo{
+    margin-left: 20rem;
+}
+.logo i{
+    margin-right: 1.5rem;
+}
+
+.material-symbols-outlined{
+    margin-right: 1.5rem;
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+.second-section{
+    display: flex;
+    border-bottom: solid 1px #ccc;
+    padding-left: 10rem;
+    color: #70757a;
+}
+
+.second-section p{
+    margin-right: 1.5rem;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+}
+.second-section i{
+    margin-right: 0.35rem;
+    cursor: pointer;
+}
+
+.tools p{
+margin-left: 11rem;
+}
+.about p{
+    padding-left: 10rem;
+    margin-top: 0.7rem;
+    margin-bottom: 1.5rem;  
+    color: #70757a;
+}
+
+.name{
+    display: flex;
+    padding-left: 10rem;
+}
+.special{
+    display: flex;
+    margin-top: 5px;
+}
+.special p{
+    color: #70757a;
+    margin-right: 10px;
+}
+
+.main-1 h3{
+    font-size: 25px;
+    margin-right: 3rem;
+}
+.buttons button{
+    color: rgb(95, 95, 206);
+    background-color: rgb(222, 222, 245);
+    box-shadow: 0 0 2px rgb(222, 222, 245);
+    border-radius:25px;
+    padding:0.75rem 1.5rem;
+    margin-right: 0.35rem;
+    border:thin solid;
+    outline:0;
+    cursor:pointer;
+    font-size:0.85rem;
+}
+.images{
+    padding-left: 10rem;
+    margin-top: 20px;
+    display: flex;
+}
+.images-1 img{
+    border-radius: 10% 0% 0% 10%;
+}
+
+.images-1{
+    display: flex;
+}
+.pictures{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5px;
+}
+.pictures img{
+    border-radius: 0% 0% 10% 0%;
+}
+
+.third-section{
+    display:flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.third-section img{
+    border-radius:10px 10px 0px 0px;
+}
+
+.sky-sports{
+    border:thin solid #ccc;
+    border-radius:0px 0px 10px 10px;
+    width:250px;
+    margin:auto;
+    padding:0.8rem;
+    background-color:white;
+    color: #70757a;
+}
+.Gary{
+    margin-top: 5px;
+    font-size: 13.5px;
+}
+.time-1{
+    margin-top: 20px;
+    font-size: 15px;
+}
+.c7{
+    margin-top: 5px;
+    color: #202124;
+}
+.fouth-section{
+    display: flex;
+    flex-direction: column;
+}
+.small{
+    display: flex;
+    flex-direction: row;
+    line-height: 1.25rem;
+}
+.small-1{
+    border:thin solid #ccc;
+    border-radius:10px 10px 10px 10px;
+    width:125px;
+    margin-right: 15px;
+    margin-left: 30px;
+    padding:0.8rem;
+    background-color:#ccc;
+    
+}
+
+.small-2{
+    border:thin solid #ccc;
+    border-radius:10px 10px 10px 10px;
+    width:125px;
+    padding:0.8rem;
+    background-color:#ccc;
+}
+
+.age{
+    margin-bottom: 30px;
+}
+.big-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.big{
+    margin-left: 30px;
+    margin-top: 25px;
+    border:thin solid #ccc;
+    border-radius:10px 10px 10px 10px;
+    width:265px;
+    padding:0.8rem;
+    background-color:white;
+    font-size: 0.9rem;
+    color: #70757a;
+}
+
+.Cris{
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+.big p{
+    line-height: 1.1rem;
+}
+.big-1 img{
+    margin-right: 7px;
+}
+.big-1 i{
+    margin-left: 135px;
+}
+
+.top-stories{
+    margin-top: 2.5rem;
+    margin-left: 10rem;
+    width: 65%;
+}
+
+.wikipdia{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -2.5rem;
+    margin-top: 2.5rem;
+    margin-left: 10rem;
+}
+
+.wikipdia img{
+    margin-right: 10px;
+}
+
+.wikipdia p{
+    margin-right: 10px;
+}
+
+.wikipedia{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -1.25rem;
+    margin-top: 2.5rem;
+    margin-left: 0rem;
+}
+
+.wikipedia img{
+    margin-right: 10px;
+}
+
+.wikipedia p{
+    margin-right: 10px;
+}
+
+.wiki{
+    line-height: 2.5rem;
+}
+
+.wiki a{
+    color: rgb(95, 95, 206);
+    font-size: 1.0rem;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.wiki p{
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+    color: #70757a;
+    margin-bottom: 1rem;
+    margin-top: -0.3rem;
+}
+
+.wiki .style a{
+    font-size: 1.0rem;
+    color: rgb(95, 95, 206);
+}
+
+.sub{
+    font-size: 1.0rem;
+    margin-top:4rem;
+}
+
+
+/*Accordion*/
+.accordion-wrapper {
+    width: 68%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+
+.accordion {
+    margin: 1rem 0 2rem;
+    border-top: solid 1px #ccc;
+}
+
+.accordion .accordion-container {
+    position: relative;
+    border: transparent;
+    padding: 2px;
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+
+.accordion .accordion-container .label {
+    position: relative;
+    padding: 1rem 0rem;
+    cursor: pointer;
+    font-size: 1.1rem;
+    line-height: 0.1rem;
+    border-bottom: solid 1px #ccc;
+}
+
+.accordion .accordion-container .label::before {
+    display: inline-block;
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 1.25rem;
+    /* transform: translateY(-50%); */
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+
+.accordion .accordion-container .content{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding: 0 0.625rem;
+    transition: 0.5s;
+}
+
+.accordion .accordion-container.active .content {
+    height: 4rem;
+    padding: 0.625rem;
+}
+
+.accordion .accordion-container.active .label::before {
+    transform: rotate(180deg);
+    content: '+]
+    ';
+}
+
+.final{
+    width: 35rem;
+}
+
+.final button{ 
+    background-color: rgb(222, 222, 245);
+    box-shadow: 0 0 2px rgb(222, 222, 245);
+    border-radius:25px;
+    padding:1.0rem 1.5rem;
+    margin-right: 0.35rem;
+    margin-bottom: 1rem;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    font-size:0.84rem;
+    width: 16rem;
+    }
+
+.final button i{
+    margin-right: 5px; 
+}
+a{
+    text-decoration: none;
+}
+
+.top-stories{
+    display: flex;
+    flex-direction: row;
+}
+
+.About{
+    width: 100%;
+    margin-left: 3rem;
+}
+
+.About h3{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+}
+.About a{
+    color: rgb(95, 95, 206);
+    cursor: pointer;
+}
+
+.about-first {
+    margin-left: 2rem;
+    width: 60vh;
+    margin-bottom: 1.5rem;
+}
+.about-second{
+    margin-left: 2rem;
+    width: 60vh;
+    margin-bottom: 1.5rem;
+}
+.about-third{
+    margin-left: 2rem;
+    width: 60vh;
+    margin-bottom: 1.5rem;
+}
+.about-fourth{
+    margin-left: 2rem;
+    width: 60vh;
+    margin-bottom: 1.5rem;
+}
+.about-fifth{
+    margin-left: 2rem;
+    width: 60vh;
+    margin-bottom: 1.5rem;
+}
+.about-sixth{
+    margin-left: 2rem;
+    width: 60vh;
+    margin-bottom: 1.5rem;
+}
+.about-seventh{
+    margin-left: 2rem;
+    width: 60vh;
+    margin-bottom: 1.5rem;
+}
+.about-eighth{
+    margin-left: 2rem;
+    width: 60vh;
+    margin-bottom: 1.5rem;
+}
+.about-ninth{
+    margin-left: 2rem;
+    width: 60vh;
+    margin-bottom: 1.5rem;
+}
+
+.About button{
+    background-color: rgb(222, 222, 245);
+    box-shadow: 0 0 2px rgb(222, 222, 245);
+    border-radius:25px;
+    padding:0.65rem 0.5rem;
+    margin-left: 2.3rem;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    font-size:0.84rem;
+    width: 18rem;
+    }
+
+    .About button i{
+        margin-left: 0.5rem;
+    }
+
+    .google-logo img{
+        margin-left: 10rem;
+    }
